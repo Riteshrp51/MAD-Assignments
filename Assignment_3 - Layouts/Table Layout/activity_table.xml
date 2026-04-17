@@ -1,0 +1,79 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:padding="20dp"
+        android:background="@drawable/table_border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table Layout Example"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TableRow android:background="#CCCCCC">
+            <TextView
+                android:layout_weight="1"
+                android:background="#2196F3"
+                android:padding="10dp"
+                android:text="Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#2196F3"
+                android:padding="10dp"
+                android:text="Age"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Ritesh"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:backgroundTint="#2196F3"
+                android:padding="10dp"
+                android:text="21" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:drawableTint="#2196F3"
+                android:padding="10dp"
+                android:text="Aniket" />
+
+            <TextView
+                android:text="22"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Parvej"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:text="25"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
